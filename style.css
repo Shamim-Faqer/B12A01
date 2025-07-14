@@ -1,0 +1,136 @@
+/*Font*/
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-extrabold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+/*shared-code*/
+.section-title {
+    font-family: inter;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+
+/*header*/
+header {
+    background-image: url(/Assets/Hero-bg.png);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    padding-top: 50px;
+}
+.logo {
+    color: #4E47FF;
+    font-size: 34px;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.haader-button button {
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: bold;
+}
+
+/*Hero*/
+.hero{
+    text-align: center;
+}
+
+h1 {
+    max-width: 905px;
+    font-size: 65px;
+    font-weight: bold;
+    padding: 117px 267px 0 267px;
+}
+
+.hero-button {
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: bold;
+}
+
+
+/*See it in Action*/
+
+.see-it-in-action {
+    display: flex;
+    justify-content: space-around;
+    margin: 116px 141px 0 141px;
+    width: 1140px;
+    height: 328px;
+}
+.right {
+    width: 403px;
+    height: 328px;
+}
+.see-it-in-action button {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
