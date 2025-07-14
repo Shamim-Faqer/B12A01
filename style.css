@@ -53,6 +53,7 @@ body, html {
     font-family: inter;
     font-size: 42px;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -117,15 +118,13 @@ h1 {
 
 .see-it-in-action {
     display: flex;
-    justify-content: space-around;
-    margin: 116px 141px 0 141px;
-    width: 1140px;
-    height: 328px;
+    justify-content: space-between;
+   align-items: center;
+   height: 328px;
+   margin: 113px 140px;
+    
 }
-.right {
-    width: 403px;
-    height: 328px;
-}
+
 .see-it-in-action button {
   background-color: #4E47FF;
   color: white;
@@ -133,4 +132,36 @@ h1 {
   border: none;
   border-radius: 5px;
 }
+.right img {
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+}
+.left {
+  padding-bottom: 80px;
 
+}
+
+/*users*/
+.users-section {
+  margin: 116px 150px 0 150px;
+
+}
+
+.users-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-amount {
+  font-family: inter;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.sub-title {
+  font-size: 20px;
+  font-weight: normal;
+}
