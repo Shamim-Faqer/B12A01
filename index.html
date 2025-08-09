@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B12A01</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
 
 </head>
-<body>
+<body class="class= px-4">
 
     <header>
 
-        <nav>
-            <div class="logo">LOGO</div>
-            <div class="haader-button">
-                <a href=""><button>Sign Up</button></a>
+        <nav class="flex justify-between pt-4 pb-4">
+            <div class="text-4xl font-extrabold text-[#4E47FF]">LOGO</div>
+            <div class=" ">
+                <a href=""><button class="bg-[#4E47FF] text-white font-semibold p-1 rounded">Sign Up</button></a>
             </div>
 
         </nav>
-        <section class="hero">
-            <div>
-                <h1>Cool Dark UI Template for Webflow Agencies!</h1>
-                <a href=""><button class="hero-button">Stay Focused</button></a>
+        <section class="text-center">
+            <div class="relative w-full ">
+                <img src="Assets/Hero-bg.png" alt="">
+                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                    <h1 class="text-3xl font-bold text-center pt-4 pb-4 sm:text-7xl sm:p-6">Cool Dark UI Template for Webflow Agencies!</h1>
+                    <a href=""><button class="bg-[#4E47FF] text-white  font-semibold p-1 rounded">Stay Focused</button></a>
+                </div>
             </div>
 
         </section>
@@ -35,111 +35,123 @@
     <main>
 
 
-        <section class="see-it-in-action">
-            <div class="left">
-                <p class="section-title">See It in Action</p>
-            <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
-            <a href=""><button>Launch Live Preview</button></a>
+        <section class="pt-[80px] pb-4 flex flex-col-reverse gap-4 sm:flex-row-reverse sm:justify-around ">
+            <div class="pb-6">
+                <p class="text-3xl font-bold sm:text-5xl">See It in Action</p>
+            <p class="pb-3">Explore the live preview and imagine your <br> brand in this bold new look.</p>
+            <a href=""><button class="bg-[#4E47FF] text-white font-semibold p-1 rounded">Launch Live Preview</button></a>
             </div>
-            <div class="right">
-                <img src="./Assets/wc-mini.png" alt="" width="403" height="328">
+            <div class="">
+                <img class="rounded" src="Assets/wc-mini.png" alt="" width="403" height="328">
             </div>
         </section>
 
-        <section class="productivity-section">
-                <h2 class="section-title">Joined Thousands of Productive Users</h2>
+        <section class="pt-[80px] sm:text-center pl-2 flex flex-col gap-12 pb-8">
+                <h2 class="text-3xl sm:text-5xl font-bold">Joined Thousands of Productive Users</h2>
 
-                <div class="stats">
-                 <div class="stat-box">
-                <h3>50K</h3>
-                 <p>Active Users</p>
-                 </div>
-                 <div class="stat-box">
-                 <h3>2M+</h3>
-                 <p>Focus Sessions</p>
-                </div>
-                <div class="stat-box">
-                <h3>95%</h3>
-                 <p>Satisfaction Rate</p>
-                </div>
+                <div class="sm:flex sm:items-center         sm:justify-around sm:p-4" >
+                    <div class="stat-box">
+                        <h3 class="text-7xl font-extrabold text-[#4E47FF]">50K</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat-box">
+                         <h3 class="text-7xl font-extrabold text-[#4E47FF]">2M+</h3>
+                         <p>Focus Sessions</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 class="text-7xl font-extrabold text-[#4E47FF]">95%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
                 </div>
     </section>
 
 
-        <section class="what-cutomer-say">
-                    <div class="section-title">What our users say</div>
-                     <div class="user-flexbox">
-                        <div>
-                    <div class="star"><p class="stars">★★★★★</p></div>
-                    <div class="sub-titles">Loved by Designers</div>
+        <section class="pt-[80px] pb-4 sm:text-center">
+                    <div class="text-3xl font-bold sm:text-5xl pb-18">What our users say</div>
+             <div class="pt-4 pb-12 sm:flex sm:justify-around sm:gap-4">
+                 <div class="pt-4 pb-6 shadow-lg rounded">
+                    <div class="star"><p class="text-[#FFB805]">★★★★★</p></div>
+                    <div class="text-xl font-semibold pb-2">Loved by Designers</div>
                     <div class="review">This template instantly leveled up our presence.” - Studio Vertex</div>
                     <img src="" alt="">
-                    <p class="user-name">Md Shamim Hossen</p>
-                    <p class="user-date">15/07/2025</p>
-                     </div>
+                    <p class="text-xl font-semibold">Md Shamim Hossen</p>
+                    <p class="text-xl font-semibold">15/07/2025</p>
+                 </div>
                 
 
-                <div>
-                    <div class="star"><p class="stars">★★★★★</p></div>
-                    <div class="sub-titles">Loved by Designers</div>
+                  <div class="pt-4 pb-6 shadow-lg rounded">
+                    <div class="star"><p class="text-[#FFB805]">★★★★★</p></div>
+                    <div class="text-xl font-semibold pb-2">Loved by Designers</div>
                     <div class="review">This template instantly leveled up our presence.” - Studio Vertex</div>
                     <img src="" alt="">
-                <p class="user-name">Md Shamim Hossen</p>
-                <p class="user-date">15/07/2025</p>
-                </div>
+                    <p class="text-xl font-semibold">Md Shamim Hossen</p>
+                   <p class="text-xl font-semibold">15/07/2025</p>
+                 </div>
 
-                <div>
-                    <div class="star"><p class="stars">★★★★★</p></div>
-                    <div class="sub-titles">Loved by Designers</div>
+                 <div class="pt-4 pb-6 shadow-lg rounded">
+                    <div class="star"><p class="text-[#FFB805]">★★★★★</p></div>
+                    <div class="text-xl font-semibold pb-2">Loved by Designers</div>
                     <div class="review">This template instantly leveled up our presence.” - Studio Vertex</div>
                     <img src="" alt="">
-                <p class="user-name">Md Shamim Hossen</p>
-                <p class="user-date">15/07/2025</p>
-                </div>
+                   <p class="text-xl font-semibold">Md Shamim Hossen</p>
+                   <p class="text-xl font-semibold">15/07/2025</p>
+                 </div>
 
 
             </div>
 
         </section>
 
-        <section class="ready-to-focus">
-            <p class="section-title">Ready to focus better
-            </p>
-            <p class="title-details">This template instantly leveled up our presence.” – Studio Vertex </p>
-            <a href=""><button class="rtfbtn">Ger Started Free</button></a>
+        <section class="pt-[80px] pb-[60px] flex flex-col-reverse gap-4 sm:flex-row sm:justify-between">
             <div>
-                <img src="./Assets/wc-big.png" alt="">
-        </section>
+                <p class="text-3xl font-bold pb-4 sm:text-5xl">Ready to focus better
+                </p>
+                <p class="pb-2">This template instantly leveled up our presence.” – Studio Vertex </p>
+                <a href=""><button class="bg-[#4E47FF] text-white font-semibold p-1 rounded">Ger Started Free</button></a>
             </div>
+            <div class="sm:w-1/2 rounded">
+                <img src="Assets/wc-big.png" alt="">
+            </div>
+        </section>
+            
 
 
     </main>
 
-    <footer>
-        <div class="footer">
-         <p class="footer-title">Let’s Get in Touch</p>
+    <footer class="pt-[80px] pb-[60px] sm:text-center bg-[#F8F8F8]">
+        <div class="sm:flex sm:justify-around sm:items-center">
+         <p class="text-3xl font-bold pb-2 sm:text-5xl">Let’s Get in Touch</p>
 
-        <form action="#">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        <form class="flex flex-col gap-4">
+        <div class="text-start">
+            <label for="email">Email:</label> <br>
+        <input class="border" type="email" id="email" name="email" placeholder=" example@email.com" required>
+        </div>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="full name" required>
+        <div class="text-start" >
+            <label for="name">Name:</label> <br>
+        <input class="border" type="text" id="name" name="name" placeholder=" full name" required>
+        </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="write your message...." required></textarea>
+        <div class="text-start" >
+            <label for="message">Message:</label> <br>
+        <textarea class="border" id="message" name="message" placeholder=" write your message...." required></textarea>
+        </div>
 
-        <button type="submit">Get in Touch</button>
+        
       </form>
+            <div class="pt-4 sm:hidden">
+                 <button class="bg-[#4E47FF] text-white text-start object-fit font-semibold p-1 rounded" type="submit">Get in Touch</button>
+            </div>
     </div>
 
-    <section class="last-footer">
-        <P class="logo">Logo</P>
-        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+    <section class="last-footer pt-[60px]">
+        <P class="text-4xl sm:text-7xl font-black text-[#4E47FF]">Logo</P>
+        <p class="pt-8 pb-6">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
         <div class="navbar">
             <section class="nav-section">
                 <nav class="navbar">
-                     <ul class="nav-menu">
+                     <ul class="flex justify-around pt-4 pb-2">
                          <li><a href="#">Home</a></li>
                          <li><a href="#">About</a></li>
                          <li><a href="#">Services</a></li>
